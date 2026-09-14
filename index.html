@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Músicas para todos - Spotify</title>
-    <link real="shortcut icon " href="imagens/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon " href="imagens/favicon.png" type="image/x-icon">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/estilo.css" rel="stylesheet">
-    <linkrel=stylesheet href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <linkrel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
 </head>
 
@@ -54,12 +54,54 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="text-white destaque">Música para todos</h1>
-                    <a href="#" class="btn btn-custom btn-roxo">Aproveite o Spotify Free</a>
-                    <a href="#" class="btn btn-custom btn-branco">Obter o Spotify Premium</a>
+                    <div  id="carousel-home" data-bs-ride="carousel" class="carousel slide">
+                        <div class="carousel-inner">    
+                            <div class="carousel-item ">  
+                                <h1 class="text-white destaque">Música para todos</h1>
+                                <a href="#" class="btn btn-custom btn-roxo mb-2 mb-sm-0">Aproveite o Spotify</a>
+                                <a href="#" class="btn btn-custom btn-branco">Obeter o Spotify Premium</a>
+                            </div> <!--Fim conteudo 1-->
+                            <div class="carousel-item active">  
+                                <h1 class="text-white destaque ">As melhores Rádios</h1>
+                                <a href="#" class="btn btn-custom btn-branco">
+                                   <i class="bi bi-music-note-beamed"></i> 
+                                   Ouça agora
+                                    
+                                </a>
+                            </div> <!--Fim conteudo 2-->
+                        </div> <!--Fim conteudo-->
+                        <!-- Contraladore (setas) -->
+                         <button type="button" class="carousel-control-prev" data-bs-target="#carousel-home" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+                            </span>
+                         </button>
+                         <button type="button" class="carousel-control-next" data-bs-target="#carousel-home" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                            </span>
+                         </button>
+                    </div> <!--Fim carousel-->
                 </div>
             </div>
             
+        </div>
+    </section>
+
+    <section class="bg-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6"> Imagens</div>
+                <div class="col-lg-6">
+                    <h2 class="display-2">O que o Spotify tem?</h2>
+
+                    <h3 class="display-2">Músicas, podcasts e vídeos   </h3>
+                    <p class="lead">O Spotify é um serviço de streaming de música, podcasts e vídeos que oferece acesso a milhões de faixas e outros conteúdos de criadores de todo o mundo. </p>
+                    <h3 class="display-2">Novos lançamentos</h3>
+                    <p class="lead">Descubra novos lançamentos e músicas populares de artistas de todo o mundo. Explore diferentes gêneros e crie suas próprias playlists personalizadas.</p>
+                </div>
+            </div>
+
         </div>
     </section>
         
