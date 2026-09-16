@@ -4,7 +4,7 @@ Projeto de estudo inspirado na interface do Spotify, desenvolvido com HTML, CSS 
 
 ## Estado atual
 
-Em desenvolvimento: contém uma barra de navegação responsiva e textos provisórios no corpo da página. Os links de navegação ainda são marcadores e não há reprodução de músicas, cadastro ou autenticação.
+Finalizado!!!
 
 ## Visualizar
 
