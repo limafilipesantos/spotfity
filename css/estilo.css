@@ -21,6 +21,12 @@ body{
 
 /* tipografia */
 
+.rotacionar{
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+
 .btn-custom{
     color: wwithe;
     border-radius: 50pix;
@@ -44,4 +50,14 @@ body{
 }
 h1.destaque{
     font-size: clamp(3rem, 10vw, 6rem);
+}
+
+#servicos h2, h3{
+    color: #6f42c1;
+}
+#recursos {
+    color: white;
+}
+#recursos h5 {
+    color:#9bf0e1;
 }
